@@ -1,15 +1,11 @@
-import logo from './babblebot.png';
+import React from 'react';
 import './App.css';
+import Home from './pages/home';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Welcome to babblebot!
-        </p>
-      </header>
+    <div className='App'>
+      <Home />
     </div>
   );
 }
