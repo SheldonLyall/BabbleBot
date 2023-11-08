@@ -1,0 +1,14 @@
+/********************************
+***.jsx components stylesheet ***
+********************************/
+
+/* banner.jsx styles */
+.bannerContainer {
+    border: solid 3px black;
+    height: 300px;
+    width: 100%;
+}
+
+.bannerHeadline {
+    text-align: center;
+}

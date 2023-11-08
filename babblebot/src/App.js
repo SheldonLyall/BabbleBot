@@ -9,6 +9,14 @@ function App() {
   return (
     <div className='App'>
       <Navbar />
+      <Banner 
+        backgroundColor='grey'
+        headline='Welcome to Babblebot!'
+        subText='We are glad to have you!'
+        buttonColor='#292F36'
+        buttonText='Sign-Up!'
+        textColor='white'
+      />
       <Home />
     </div>
   );
